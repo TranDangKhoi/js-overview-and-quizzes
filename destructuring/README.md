@@ -8,6 +8,8 @@ Destructuring là một cách viết ngắn gọn hơn để lấy một loạt 
 
 Ví dụ đang làm bài tập ở folder destructuring thì gõ vào terminal `cd destructuring` (Hoặc là gõ `cd` rồi `bấm Tab` để nó tự auto-complete). Tiếp theo chạy `node index.js` để xem output
 
+Chưa hiểu thì xem ở đây: https://www.youtube.com/watch?v=8o_vkZNFex8
+
 ### 1. Cơ bản mức độ 1
 
 Ví dụ cơ bản một trường hợp như dưới đây:
