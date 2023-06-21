@@ -26,8 +26,25 @@ console.log("Kết quả bài tập 3:");
 
 // Code dưới này
 
-// Bài tập 4: Cho sẵn một function dùng để in ra thông tin của student, tự khởi tạo một object mang tên myStudent có ít nhất 3 trường
-// Sau đó sử dụng rest operator để truyền vào toàn bộ thông tin trong object myStudent vào function logStudentInfo
-// Xử lí in ra thông tin của myStudent trong terminal
-// HINT: truyền vào function logStudentInfo như sau: logStudentInfo({ ...myStudent }). Sau đó in ra myStudent.name, myStudent.age, ...v.v
+// Bài tập 4:
+// Cho sẵn một function dùng để in ra thông tin của student
+// Hãy tự khởi tạo một object myStudent có 5 cặp key-value (name, age, school và 2 cái còn lại có thể tự viết ra nhé)
+// Dùng destructuring, thực hiện in ra name, age, school.
+// Và sau đó sử dụng rest operator để in ra giá trị của 2 key còn lại nằm trong object myStudent ra terminal
+// (và lưu ý chỉ được sử dụng một dòng console.log duy nhất)
 console.log("Kết quả bài tập 4:");
+const myStudent = {
+  // Tự khởi tạo object myStudent ở đây
+  name: "Khoi",
+  age: 20,
+  school: "FPTU HN",
+  mark: 8.0,
+  isSophomore: true,
+};
+
+// Cho sẵn một function như sau, tự điều chỉnh tham số (tham số bắt buộc phải là 1 Object):
+const logStudentInfo = ({ name, age, school, ...rest }) => {
+  console.log(name, age, school, rest.mark, rest.isSophomore);
+};
+
+logStudentInfo(myStudent);
