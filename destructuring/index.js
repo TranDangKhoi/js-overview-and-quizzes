@@ -20,7 +20,7 @@ const student = {
 
 // Code dưới này
 
-// Bài tập 3: Sử dụng chính object student ở bài 2, hãy in ra các phần tử trong mảng friends sử dụng Destructuring
+// Bài tập 3: Sử dụng chính object student ở bài 2, hãy in ra từng phần tử trong mảng friends sử dụng Destructuring
 // Expected Output: Minh Nam Viet
 console.log("Kết quả bài tập 3:");
 
