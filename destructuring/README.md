@@ -19,9 +19,9 @@ const arr = [1, 2, 3];
 Tức là:
 
 ```js
-arr[0] = 1;
-arr[1] = 2;
-arr[2] = 3;
+console.log(arr[0]); // Output: 1
+console.log(arr[1]); // Output: 2
+console.log(arr[2]); // Output: 3
 ```
 
 Muốn lấy từng giá trị của **mảng arr** thì viết như kia dài dòng văn tự quá, thay vào đó mình có thể viết như sau:
@@ -29,7 +29,7 @@ Muốn lấy từng giá trị của **mảng arr** thì viết như kia dài d�
 ```js
 const [a, b, c] = [1, 2, 3];
 
-// Lúc này, ta sẽ thử in từng giá trị ra console:
+// Lúc này, ta sẽ in từng giá trị ra console:
 console.log(a); // Output: 1
 console.log(b); // Output: 2
 console.log(c); // Output: 3
