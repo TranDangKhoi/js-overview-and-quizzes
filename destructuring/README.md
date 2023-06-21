@@ -149,3 +149,27 @@ Bài tập tiếp theo thôi nhỉ?
 ```js
 // Bài tập 4: Qua file index.js đọc đề bài nhé
 ```
+
+<details>
+  <summary>
+  <strong>Đáp án & Giải thích</strong>
+  </summary>
+
+```js
+const myStudent = {
+  name: "Khoi",
+  age: 20,
+  school: "FPTU HN",
+  mark: 8.0,
+  isSophomore: true,
+};
+// Lấy ra name, age, school từ object myStudent sử dụng Destructuring. Sau đó sử dụng Rest Operator để lấy ra nốt các phần còn lại trong myStudent
+// Các phần còn lại này thực ra là một Object chứa 2 cặp key-value {mark: 8.0, isSophomore: true}
+const logStudentInfo = ({ name, age, school, ...rest }) => {
+  console.log(name, age, school, rest.mark, rest.isSophomore);
+};
+
+logStudentInfo(myStudent);
+```
+
+</details>
