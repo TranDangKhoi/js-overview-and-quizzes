@@ -5,8 +5,8 @@ const names = ["John", "Ken"];
 
 // Code dưới này
 
-// Bài tập 2: Cho object student1, hãy in ra 3 giá trị của 3 keys đầu tiên trong object sử dụng Rest Operator và Destructuring
-// Cùng lúc đó, in ra các cặp key-value còn lại sử dụng Destructuring (sử dụng một dòng console.log duy nhất)
+// Bài tập 2: Cho object student1, hãy in ra 3 cặp key-value đầu tiên trong object sử dụng Rest Operator và Destructuring
+// Cùng lúc đó, in ra giá trị của các keys còn lại sử dụng Destructuring (sử dụng một dòng console.log duy nhất)
 // Expected Output: [ 'Minh', 'Nam', 'Viet' ] FPTU HN { studentName: 'Khoi', isHandsome: 'kinda', age: 20 }
 console.log("Kết quả bài tập 2:");
 
