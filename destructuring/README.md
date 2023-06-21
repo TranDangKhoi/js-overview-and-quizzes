@@ -2,7 +2,7 @@
 
 ## Destructuring là gì?
 
-Destructuring là một cách viết ngắn gọn hơn để lấy một loạt các giá trị nằm trong một mảng hoặc một object.
+Destructuring là một cách viết ngắn gọn hơn để lấy ra các giá trị nằm trong một mảng hoặc một object dưới dạng đã bị "phá".
 
 ## Hướng dẫn xem Output không cần sử dụng index.html
 
