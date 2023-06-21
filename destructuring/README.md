@@ -1,14 +1,29 @@
-# Destructuring trong JS
+## Hướng dẫn xem file markdown một cách tiện lợi trong VSCode
 
-## Destructuring là gì?
+- Cài 6 extensions sau:
 
-Destructuring là một cách viết ngắn gọn hơn để lấy một loạt các giá trị nằm trong một mảng hoặc một object.
+  - Github Markdown Preview
+  - Markdown Checkboxes
+  - Markdown Emoji
+  - Markdown Footnotes
+  - Markdown Preview Github Styling
+  - Markdown yaml Preamble
+
+![Ảnh minh họa (refresh lại nếu không hiển thị ảnh)](https://i.ibb.co/3rDJxgC/image.png)
+
+- Sau khi cài mở file README.md lên, gõ tổ hợp Ctrl + K, sau đó bấm chữ V. Vừa đọc markdown vừa code theo yêu cầu là ok
+
+- Video hướng dẫn nếu không hiểu: https://www.youtube.com/watch?v=nOMCI0eSkqM
 
 ## Hướng dẫn xem Output không cần sử dụng index.html
 
 Ví dụ đang làm bài tập ở folder destructuring thì gõ vào terminal `cd destructuring` (Hoặc là gõ `cd` rồi `bấm Tab` để nó tự auto-complete). Tiếp theo chạy `node index.js` để xem output
 
 Chưa hiểu thì xem ở đây: https://www.youtube.com/watch?v=8o_vkZNFex8
+
+## Destructuring là gì?
+
+Destructuring là một cách viết ngắn gọn hơn để lấy một loạt các giá trị nằm trong một mảng hoặc một object.
 
 ### 1. Cơ bản mức độ 1
 
@@ -26,7 +41,7 @@ console.log(arr[1]); // Output: 2
 console.log(arr[2]); // Output: 3
 ```
 
-Muốn lấy từng giá trị của **mảng arr** thì viết như kia dài dòng văn tự quá, thay vào đó mình có thể viết như sau:
+Muốn lấy từng giá trị của **mảng arr** thì có thể viết như kia, nhưng thay vào đó mình cũng có thể viết như sau:
 
 ```js
 const [a, b, c] = [1, 2, 3];
