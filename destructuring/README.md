@@ -66,7 +66,7 @@ Bây giờ, ví dụ thêm một ví dụ nữa đi:
 const names = ["John", "Ken"];
 ```
 
-Giờ, mình không cần in ra `John`, mà mình chỉ cần in ra `Ken` thôi, thì làm sao. Tự làm vào trong file index.js. Rồi xem đáp án sau:
+Sử dụng Destructuring, thực hiện in ra `Ken`, mà không cần lấy ra `John`. Tự làm vào trong file index.js. Rồi xem đáp án sau:
 
 <details>
   <summary>
