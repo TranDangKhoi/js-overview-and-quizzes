@@ -164,7 +164,7 @@ const myStudent = {
   isSophomore: true,
 };
 // Lấy ra name, age, school từ object myStudent sử dụng Destructuring. Sau đó sử dụng Rest Operator để lấy ra nốt các phần còn lại trong myStudent
-// Các phần còn lại này thực ra là một Object chứa 2 cặp key-value {mark: 8.0, isSophomore: true}
+// Phần còn lại này thực ra là một Object chứa 2 cặp key-value {mark: 8.0, isSophomore: true}
 const logStudentInfo = ({ name, age, school, ...rest }) => {
   console.log(name, age, school, rest.mark, rest.isSophomore);
 };
