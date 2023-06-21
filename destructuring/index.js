@@ -29,7 +29,7 @@ console.log("Kết quả bài tập 3:");
 // Bài tập 4:
 // Cho sẵn một function dùng để in ra thông tin của student
 // Hãy tự khởi tạo một object myStudent có 5 cặp key-value (name, age, school và 2 cái còn lại có thể tự viết ra nhé)
-// Dùng destructuring, thực hiện in ra name, age, school.
+// Dùng destructuring và rest operator bên trong tham số của function logStudentInfo, thực hiện in ra name, age, school.
 // Và sau đó sử dụng rest operator để in ra giá trị của 2 key còn lại nằm trong object myStudent ra terminal
 // (và lưu ý chỉ được sử dụng một dòng console.log duy nhất)
 console.log("Kết quả bài tập 4:");
