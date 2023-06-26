@@ -1,5 +1,10 @@
 ## Scope trong Javascript là gì ?
 
+### Khái niệm
+
+Scope - dịch ra tiếng Việt là `phạm vi`. Vậy thì Scope trong Javascript sẽ được hiểu là phạm vi của các biến được
+khai báo mà ta có thể truy cập được.
+
 ### Global Scope
 
 - Trước khi bắt đầu viết bất kì một dòng code nào, chúng ta sẽ nằm trong phạm vi truy cập toàn cục - **Global scope**.
@@ -11,7 +16,8 @@
   - Function Scope
   - Block Scope
 
-- Function Scope: Khi ta bắt đầu khởi tạo một function, vô hình chung ta đã đang nằm trong **Function Scope**. Trong phạm vi này thì bất kì biến nào được khai báo bên trong, thì bên ngoài đều không truy cập được.
+- Function Scope: Khi ta bắt đầu khởi tạo một function, vô hình chung ta đã đang nằm trong **Function Scope**.
+  Trong phạm vi này thì bất kì biến nào được khai báo bên trong, thì bên ngoài đều không truy cập được.
 
 ```js
 function sayHello() {
@@ -39,6 +45,8 @@ console.log(hello); // Lỗi: hello is not defined
 
 ## IIFE là gì ?
 
+- IIFE là viết tắt của Immediately Invoked Function Expression. Hay còn được hiểu là "Một function được chạy ngay lập tức"
+
 - Là một function được chạy ngay lập tức khi ứng dụng được chạy. Nhưng có một số thứ đặc biệt về function này một xíu
 
 ```js
@@ -52,7 +60,7 @@ var hello = "Hello, Khoi";
 console.log(hello);
 ```
 
-- Toàn bộ biến được đặt bên trong một IIF sẽ không thể truy cập được từ bên ngoài. Và biến bên ngoài cũng không thể truy cập được vào biến bên trong IIF. Nhưng cũng không hẳn là như vậy, mình có thể truyền biến vào IIF thông qua tham số.
+- Toàn bộ biến được đặt bên trong một IIF sẽ không thể bị truy cập được từ bên ngoài.
 
 ```js
 var hello = "Xin chào,";
@@ -61,7 +69,7 @@ var name = "Khôi";
 (function chaoCai() {
   var hello = "Hello,";
   console.log(`${hello} ${name}`);
-})(name);
+})();
 ```
 
 Ở ví dụ trên thì, tôi truyền giá trị của biến name vào trong IIF. Và yup, sử dụng được thoải mái.
