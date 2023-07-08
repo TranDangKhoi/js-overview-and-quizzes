@@ -48,26 +48,26 @@
 
 // };
 
-interface ConNguoi {
-  name: string;
-  laDuCon: boolean;
-  thongMinhKietXuat: boolean;
-}
+// interface ConNguoi {
+//   name: string;
+//   laDuCon: boolean;
+//   thongMinhKietXuat: boolean;
+// }
 
-const thangThuNhat: ConNguoi = {
-  name: "Khoi",
-  laDuCon: false,
-  thongMinhKietXuat: true,
-};
+// const thangThuNhat: ConNguoi = {
+//   name: "Khoi",
+//   laDuCon: false,
+//   thongMinhKietXuat: true,
+// };
 
-const thangThuHai: ConNguoi = {
-  name: "Nam",
-  laDuCon: true,
-  thongMinhKietXuat: true,
-};
+// const thangThuHai: ConNguoi = {
+//   name: "Nam",
+//   laDuCon: true,
+//   thongMinhKietXuat: true,
+// };
 
-const thangThuBa: ConNguoi = {
-  name: "Minh",
-  laDuCon: false,
-  thongMinhKietXuat: false,
-};
+// const thangThuBa: ConNguoi = {
+//   name: "Minh",
+//   laDuCon: false,
+//   thongMinhKietXuat: false,
+// };
